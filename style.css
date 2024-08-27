@@ -216,3 +216,47 @@ main{
     max-width: 800px;
     font-weight: 500;
 }
+.precios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--claret);
+    max-width: 1400px;
+    margin-top: 200px;
+    gap: 100px;
+    
+}
+.info-precios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.info-precios h2{
+    font-size: 30px;
+}
+.info-precios p{
+    font-weight: 500;
+}
+.info-precios span{
+    padding: 8px 15px 8px 15px;
+    border: solid 2px var(--chocolate-cosmos);
+    border-radius: 2px;
+    background-color: var(--lavender-blush);
+    font-weight: 500;
+}
+.cards-precios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.veces-semana{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px black;
+    gap: 20px;
+}

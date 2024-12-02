@@ -120,7 +120,7 @@ main{
     
 
 }
-.nosotros{
+#nosotros{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,10 +143,10 @@ main{
     font-size: 20px;
     font-weight: 800px;
 }
-.nosotros img{
+#nosotros img{
     width: 50%;
 }
-.beneficios{
+#beneficios{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -224,6 +224,7 @@ main{
     color: var(--claret);
     max-width: 1400px;
     margin-top: 200px;
+    margin-bottom: 200px;
     gap: 100px;
     
 }
@@ -235,28 +236,109 @@ main{
     gap: 20px;
 }
 .info-precios h2{
-    font-size: 30px;
+    font-size: 50px;
 }
 .info-precios p{
     font-weight: 500;
+    font-size: 30px;
 }
 .info-precios span{
-    padding: 8px 15px 8px 15px;
+    padding: 10px 20px 10px 20px;
     border: solid 2px var(--chocolate-cosmos);
     border-radius: 2px;
     background-color: var(--lavender-blush);
+    font-size: 20px;
     font-weight: 500;
 }
 .cards-precios{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 80px;
 }
 .veces-semana{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid 1px black;
-    gap: 20px;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    border: solid 2px black;
+    border-radius: 6px;
+    gap: 50px;
 }
+.veces-semana p{
+    font-weight: 700;
+    font-size: 20px;
+}
+.cards-precios a{
+    text-decoration: none;
+    background-color: var(--rose-red);
+    color: var(--lavender-blush);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+#time{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-bottom: 80px;
+    color:var(--chocolate-cosmos)
+}
+#time h3{
+    color: var(--rose-red);
+}
+
+.cl-time{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.cl-time p{
+    font-size: 20px;
+    max-width: 350px;
+}
+.cl-time a{
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+    background-color: var(--chocolate-cosmos);
+    color: var(--lavender-blush)
+    
+}
+.cl-time img{
+    width: 80px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 100px 0;
+}
+.logito img{
+    width: 200px;
+    
+}
+.polit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 850px;    
+    margin-top: 20px;
+    
+}
+.a-polit{
+    display: flex;
+    gap: 10px;
+}
+.a-polit a{
+    
+    color: black;
+    
+}
+body{
+    background-color: var(--lavender-blush)
+}
+
+
+
+

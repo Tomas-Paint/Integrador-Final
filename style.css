@@ -173,7 +173,7 @@ main{
 }
 .cards{
   display: flex;
-  gap: 100px;
+  gap: 30px;
   justify-content: center;
   align-items: center;
   margin: 80px 0 80px 0;
@@ -339,6 +339,79 @@ body{
     background-color: var(--lavender-blush)
 }
 
+/* Mediaqueries */ 
 
+@media (max-width: 1800px){
+    .buttons-header a{
+        padding: 8px 18px 8px 18px;
+        font-size: 14px;
+     }
+     .navbar-header ul a{
+        font-size: 14px;
+     }
+     .hero_info h1{
+        font-size: 70px;
+        max-width: 1000px;
+        margin-top: 20px;
+        
+     }
+     .hero_info p{
+        font-size: 35px;
+     }
+     .buttons_hero a{
+        text-decoration: none;
+        color: var(--lavender-blush);
+        font-size: 23px;
+        background: var(--chocolate-cosmos);
+        padding: 12px 17px 12px 17px;
+        border-radius: 20px;
+        
+    
+    }
+     
+    #beneficios{
+        
+        max-width: 1000px;
+       
+    }
+    
+    .info-ben h2{
+        font-size: 40px;
+        
+    
+    }
+    .info-ben p{
+        font-size: 18px;
+        font-weight: 800;
+        
+    }
+    
+    .cards img{
+        width: 450px;
+    }
+    .precios{
+        max-width: 1300px;
+    }
+    
+    .info-precios h2{
+        font-size: 40px;
+    }
+    .info-precios p{
+        font-weight: 500;
+        font-size: 25px;
+    }
+    .info-precios span{
+        padding: 8px 18px 8px 18px;
+        font-size: 18px;
+    }
+    .polit{
+        gap: 500px;    
+    }
+    
+}
+@media(max-width: 1430px){
+    
+   
+}
 
 
